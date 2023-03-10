@@ -1,0 +1,28 @@
+{
+	"domain" : "xyzcore.local",
+	"groups" : [
+		{
+			"name" : "Employees"
+		},
+        {
+            "name" : "Students"
+        }
+	],
+
+	"users" : [
+		{
+			"name": "John Harvard",
+			"password" : "P@ssw0rd123#",
+			"groups" :[
+				"Employees"
+			]
+		},
+		{
+			"name":"Alex Ahmed",
+			"password":"Av3rystr0ngpa33w0rd!",
+			"groups" :[
+				"Students"
+			]
+		}
+	]
+}
