@@ -34,7 +34,7 @@ for( $i=0; $i -lt $num_users; $i++ ){
 }
 
 @{
-    "domain"="xyzcore.local"
+    "domain"=$domain
     "groups"=$groups
     "users"=$users
 } | ConvertTo-JSON | Out-File $OutputJSON
