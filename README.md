@@ -1,6 +1,6 @@
 # Automate User and Group Creation in AD
 
-## Descriptions
+## Description
 
 These scripts are intended to be used in Active Directory testing environment where one can create multiple users and groups provided the JSON schema, dont't use these scripts in actual AD environments. 
 
